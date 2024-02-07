@@ -8,3 +8,5 @@
 2. is_alpha: indicates whether the token consists of alphabetic characters or not.
 3. is_punct: indicates whether the token is a punctuation symbol or not.
 4. is_stop: indicates whether the token is a stop word or not.
+
+**4. custom_infix_at_the_rate.py :** If some text that used the @ symbol, the default parsing read the XYZ@based text as a single token, but if you do  @ symbol as a custom infix, then you’d get three tokens i.e 'XYZ', '@', 'based'.
