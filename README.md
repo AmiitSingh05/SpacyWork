@@ -14,3 +14,6 @@
 **5. stop_words.py :** This program counts 326 stop words and display list of such words.
 
 **6. remove_stop_words_from_inputtext.py:** This removes the stop words from given input text and generate list of tokens
+
+**7. lemmatized_form_of_token.py:** For given input_text, lammatized to token list
+
