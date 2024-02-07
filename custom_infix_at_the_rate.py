@@ -1,19 +1,21 @@
 import re
-
 import spacy
 from spacy.tokenizer import Tokenizer
 
+
 custom_nlp = spacy.load("../../en_core_web_sm")
 prefix_re = spacy.util.compile_prefix_regex(custom_nlp.Defaults.prefixes)
-
 suffix_re = spacy.util.compile_suffix_regex(custom_nlp.Defaults.suffixes)
-
-
 custom_infixes = [r"@"]
-
 infix_re = spacy.util.compile_infix_regex(list(custom_nlp.Defaults.infixes) + custom_infixes)
-
-
+"""
+1. Vocab: A storage container for special cases, which is used to handle cases like contractions and emoticons.
+2. prefix_search: A function that handles preceding punctuation, such as opening parentheses.
+3. suffix_search: A function that handles succeeding punctuation, such as closing parentheses.
+4. infix_finditer: A function that handles non-whitespace separators, such as hyphens.
+5. token_match: An optional Boolean function that matches strings that should never be split. 
+ It overrides the previous rules and is useful for entities like URLs or numbers
+"""
 custom_nlp.tokenizer = Tokenizer(custom_nlp.vocab,
                                     prefix_search=prefix_re.search,
                                     suffix_search=suffix_re.search,
