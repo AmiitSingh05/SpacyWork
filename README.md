@@ -11,4 +11,4 @@
 
 **4. custom_infix_at_the_rate.py :** If some text that used the @ symbol, the default parsing read the XYZ@based text as a single token, but if you do  @ symbol as a custom infix, then you’d get three tokens i.e 'XYZ', '@', 'based'.
 
-5. stop_words.py : This program counts 326 stop words and display list of such words.
+**5. stop_words.py :** This program counts 326 stop words and display list of such words.
