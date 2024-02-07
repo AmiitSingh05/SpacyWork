@@ -24,3 +24,19 @@ input_text = (
 sentences = getDocFromText(input_text)
 for sentence in sentences:
     print(sentence,sentence.idx)
+
+info = """
+1. text_with_ws:  prints the token text along with any trailing space, if present.
+2. is_alpha: indicates whether the token consists of alphabetic characters or not.
+3. is_punct: indicates whether the token is a punctuation symbol or not.
+4. is_stop: indicates whether the token is a stop word or not.
+"""
+print(info)
+for token in sentences:
+     print(
+         f"{str(token.text_with_ws):22}"
+         f"{str(token.is_alpha):15}"
+         f"{str(token.is_punct):18}"
+         f"{str(token.is_stop)}"
+     )
+
