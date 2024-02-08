@@ -21,5 +21,9 @@
 
 **9. part_of_speech1.py:** Part of speech or POS i.e prints Token,Tag,PartOfSpeech, and Explanation.
 
-10. **categorize_word_based_on_part_of_speech.py:** extracting words those are nouns in noun_list, pronoun in pronoun_list
+**10.** **categorize_word_based_on_part_of_speech.py:** extracting words those are nouns in noun_list, pronoun in pronoun_list
+
+**11.  display_by_displacy.py:** This file display pos on the graph as shown below.
+
+12.  <img width="901" alt="image" src="https://github.com/AmiitSingh05/SpacyWork/assets/158126197/6e95606a-0d01-4ed1-88c5-64f108e9bbff">
 
