@@ -29,7 +29,7 @@
 
 **12. headwords_and_dependent.py:** in given text/sentence finding the root or headword and dependent token, plot on displacy
 
-![alt text](http://image_for_spacy1.png)
+![alt text](https://github.com/AmiitSingh05/SpacyWork/blob/master/image_for_spacy1.png)
    >
 
 
