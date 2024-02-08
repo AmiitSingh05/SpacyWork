@@ -13,7 +13,11 @@
 
 **5. stop_words.py :** This program counts 326 stop words and display list of such words.
 
-**6. remove_stop_words_from_inputtext.py:** This removes the stop words from given input text and generate list of tokens
+**6. remove_stop_words_from_inputtext.py:** This removes the stop words from given input text and generate list of tokens.
 
-**7. lemmatized_form_of_token.py:** For given input_text, lammatized to token list
+**7. lemmatized_form_of_token.py:** For given input_text, lammatized to token list.
+
+**8. count_frequency_of_words.py:** Count frequnecy of token in given text.
+
+**9. part_of_speech1.py:** Part of speech or POS i.e prints Token,Tag,PartOfSpeech, and Explanation.
 
