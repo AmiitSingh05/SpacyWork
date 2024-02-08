@@ -25,5 +25,10 @@
 
 **11.  display_by_displacy.py:** This file display pos on the graph as shown below.
 
-12.  <img width="901" alt="image" src="https://github.com/AmiitSingh05/SpacyWork/assets/158126197/6e95606a-0d01-4ed1-88c5-64f108e9bbff">
+  <img width="901" alt="image" src="https://github.com/AmiitSingh05/SpacyWork/assets/158126197/6e95606a-0d01-4ed1-88c5-64f108e9bbff">
+
+**12. headwords_and_dependent.py:** in given text/sentence finding the root or headword and dependent token, plot on displacy
+
+    <img width="870" alt="image" src="https://github.com/AmiitSingh05/SpacyWork/assets/158126197/c0045699-46fe-423f-a7d9-334703cb411e">
+
 
