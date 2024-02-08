@@ -21,3 +21,5 @@
 
 **9. part_of_speech1.py:** Part of speech or POS i.e prints Token,Tag,PartOfSpeech, and Explanation.
 
+10. **categorize_word_based_on_part_of_speech.py:** extracting words those are nouns in noun_list, pronoun in pronoun_list
+
